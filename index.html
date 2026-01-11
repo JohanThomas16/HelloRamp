@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloRamp.ai - Supercharge your car dealership to boost sales</title>
+    <meta name="description"
+        content="HelloRamp.ai SaaS uses 3D technology and Generative AI to supercharge how used cars are sold online by providing professional studio-quality images, videos & 360 spin that convert visitors into happy customers.">
+    <meta property="og:title" content="HelloRamp.ai - Supercharge your car dealership to boost sales">
+    <meta property="og:description" content="AI-driven photography, 360s, and social that sells inventory.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                Hello<span class="logo-highlight">Ramp</span>.ai
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" id="desktopNav">
+                <div class="nav-item dropdown" id="productsDropdown">
+                    <button class="nav-link dropdown-toggle" id="productsToggle">
+                        Products <span class="dropdown-arrow">▾</span>
+                    </button>
+                    <div class="dropdown-menu" id="productsMenu">
+                        <div class="dropdown-content-grid">
+                            <!-- Left Column -->
+                            <div class="dropdown-col">
+                                <h4 class="dropdown-header">Capture & Showcase</h4>
+                                <ul class="dropdown-items">
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path
+                                                        d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                                    <circle cx="12" cy="13" r="4" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Photobooth</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path
+                                                        d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Spin 360</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path
+                                                        d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4" />
+                                                    <circle cx="12" cy="17" r="1" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Damage Tagging</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path d="M15 10l5 5-5 5" />
+                                                    <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Engine Video</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                                    <circle cx="12" cy="12" r="3" />
+                                                    <line x1="12" y1="3" x2="12" y2="21" />
+                                                    <line x1="3" y1="12" x2="21" y2="12" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Interactive Gallery</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path
+                                                        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                                                    <line x1="7" y1="7" x2="7.01" y2="7" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Feature Highlights</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Middle Column -->
+                            <div class="dropdown-col">
+                                <h4 class="dropdown-header">Market and Engage</h4>
+                                <ul class="dropdown-items">
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Social Posts</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path d="M23 7l-7 5 7 5V7z" />
+                                                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Video Shorts</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Instagram Manager</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="icon-box">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                                    <circle cx="12" cy="7" r="4" />
+                                                </svg>
+                                            </span>
+                                            <span class="item-text">Personalized Avatar</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Right Promo Card -->
+                            <div class="dropdown-promo-card">
+                                <div class="promo-content">
+                                    <div class="promo-image-container">
+                                        <!-- Placeholder visual matching the person+car look -->
+                                        <img src="images/car-studio.png" alt="Avatar Preview" class="promo-img">
+                                        <div class="person-overlay"></div>
+                                    </div>
+                                    <p class="promo-desc">Create avatar and voiceover videos that introduce your
+                                        vehicles like a real salesperson</p>
+                                    <button class="btn-coming-soon">Coming Soon</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="tutorials.html" class="nav-link">Tutorials</a>
+                <button class="lang-btn" id="langBtn">
+                    <span class="lang-icon">文A</span>
+                </button>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span class="menu-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <nav class="nav-overlay" id="navOverlay">
+        <div class="nav-content">
+            <div class="nav-columns">
+                <div class="nav-column">
+                    <h3 class="nav-heading">Capture & Showcase</h3>
+                    <ul class="nav-list">
+                        <li><a href="#"><span class="nav-icon">📷</span> Photobooth</a></li>
+                        <li><a href="#"><span class="nav-icon">🔄</span> Spin 360</a></li>
+                        <li><a href="#"><span class="nav-icon">🏷️</span> Damage Tagging</a></li>
+                        <li><a href="#"><span class="nav-icon">🎥</span> Engine Video</a></li>
+                        <li><a href="#"><span class="nav-icon">🖼️</span> Interactive Gallery</a></li>
+                        <li><a href="#"><span class="nav-icon">✨</span> Feature Highlights</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <h3 class="nav-heading">Market and Engage</h3>
+                    <ul class="nav-list">
+                        <li><a href="#"><span class="nav-icon">📱</span> Social Posts</a></li>
+                        <li><a href="#"><span class="nav-icon">🎬</span> Video Shorts</a></li>
+                        <li><a href="#"><span class="nav-icon">📸</span> Instagram Manager</a></li>
+                        <li><a href="#"><span class="nav-icon">👤</span> Personalized Avatar</a></li>
+                    </ul>
+                </div>
+                <div class="nav-column">
+                    <h3 class="nav-heading">Resources</h3>
+                    <ul class="nav-list">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                    </ul>
+                    <div class="nav-buttons">
+                        <a href="#" class="btn btn-outline">Try for Free</a>
+                        <a href="#" class="btn btn-primary">Get a Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <img src="images/hero-bg.png" alt="Car dealership" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Studio Quality Car Visuals.<br>Zero Effort.</h1>
+                <p class="hero-subtitle">AI-Driven Photography, 360s, and Social That Sells Inventory</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3x</span>
+                        <span class="stat-label">more engagement</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">25%</span>
+                        <span class="stat-label">more leads</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Get a Demo</a>
+                    <a href="#try-yourself" class="btn btn-outline-dark">Try for Free</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Visual Merchandising Suite -->
+    <section class="suite-section" id="suite">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">All-in-One <span class="text-gradient">Visual Merchandising</span> Suite</h2>
+                <p class="section-subtitle">Tools Built to Turn Every Vehicle Into a High-Converting Listing</p>
+            </div>
+            <div class="suite-grid">
+                <div class="suite-card">
+                    <div class="suite-card-image">
+                        <img src="images/hero-bg.png" alt="Photobooth">
+                    </div>
+                    <div class="suite-card-content">
+                        <h3>Photobooth</h3>
+                        <ul class="feature-list">
+                            <li><span class="check-icon">✦</span> AI-Guided Photo Capture</li>
+                            <li><span class="check-icon">✦</span> Professional Vehicle Images</li>
+                            <li><span class="check-icon">✦</span> Automated Image Polishing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="suite-card">
+                    <div class="suite-card-image">
+                        <img src="images/car-studio.png" alt="360 Spin">
+                        <div class="spin-overlay">
+                            <span class="logo-badge">Hello<span>Ramp</span>.ai</span>
+                        </div>
+                    </div>
+                    <div class="suite-card-content">
+                        <h3>360 Spin</h3>
+                        <ul class="feature-list">
+                            <li><span class="check-icon">✦</span> Guided 360° Walkarounds</li>
+                            <li><span class="check-icon">✦</span> No Hardware Required</li>
+                            <li><span class="check-icon">✦</span> Interior & Exterior 360s</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="suite-card">
+                    <div class="suite-card-image social-posts-grid">
+                        <div class="social-post-item">
+                            <img src="images/car-studio.png" alt="Social Post">
+                        </div>
+                        <div class="social-post-item">
+                            <img src="images/car-red.png" alt="Social Post">
+                        </div>
+                    </div>
+                    <div class="suite-card-content">
+                        <h3>Social Posts</h3>
+                        <ul class="feature-list">
+                            <li><span class="check-icon">✦</span> Auto-Generated Poster Designs</li>
+                            <li><span class="check-icon">✦</span> Customizable Branding</li>
+                            <li><span class="check-icon">✦</span> Template Library Available</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="suite-card">
+                    <div class="suite-card-image video-preview">
+                        <img src="images/car-gray.png" alt="Video Shorts">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="suite-card-content">
+                        <h3>Video Shorts</h3>
+                        <ul class="feature-list">
+                            <li><span class="check-icon">✦</span> Auto-Generated Short Videos</li>
+                            <li><span class="check-icon">✦</span> Template Library & Graphics</li>
+                            <li><span class="check-icon">✦</span> Optimized for Mobile</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photobooth Detail Section -->
+    <section class="photobooth-section" id="photobooth">
+        <div class="container">
+            <div class="photobooth-header">
+                <h2 class="section-title">Photobooth</h2>
+                <p class="section-subtitle">Capture Studio-Grade Car Photos That Boost Sales</p>
+            </div>
+            <div class="photobooth-tabs">
+                <button class="tab-btn active" data-tab="exterior">Exterior</button>
+                <button class="tab-btn" data-tab="interior">Interior</button>
+                <button class="tab-btn" data-tab="closeups">Closeups</button>
+            </div>
+            <div class="photobooth-showcase">
+                <div class="showcase-image" id="showcaseImage">
+                    <img src="images/car-studio.png" alt="Car showcase" id="mainShowcaseImg">
+                </div>
+                <div class="showcase-options">
+                    <button class="option-btn active" data-option="original">
+                        <span class="option-title">Original</span>
+                        <span class="option-desc">Capture anywhere</span>
+                    </button>
+                    <button class="option-btn" data-option="background">
+                        <span class="option-title">Background Change</span>
+                        <span class="option-desc">Unlimited Studio Style Options</span>
+                    </button>
+                    <button class="option-btn" data-option="tints">
+                        <span class="option-title">Window Tints</span>
+                        <span class="option-desc">AI Models for Premium Look</span>
+                    </button>
+                    <button class="option-btn" data-option="plate">
+                        <span class="option-title">License Plate</span>
+                        <span class="option-desc">Compliance and Privacy</span>
+                    </button>
+                    <button class="option-btn" data-option="personalize">
+                        <span class="option-title">Personalize</span>
+                        <span class="option-desc">Logos and Custom Banners</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 360 Spin Section -->
+    <!-- 360 Spin Section -->
+    <section class="spin-section" id="spin360">
+        <div class="container-fluid">
+            <div class="section-header dark">
+                <h2 class="section-title text-white">360° Spin</h2>
+                <p class="section-subtitle text-white-opacity">Immersive 360° Spins That Deepen Engagement and Buyer
+                    Confidence</p>
+            </div>
+
+            <div class="spin-split-container">
+                <!-- Left Side: Exterior -->
+                <div class="spin-half">
+                    <img src="images/car-studio.png" alt="360 Exterior" class="spin-bg-img">
+                    <div class="spin-label-container">
+                        <span class="spin-label light">Exterior</span>
+                    </div>
+                    <div class="spin-interaction-hint">
+                        <img src="https://cdn-icons-png.flaticon.com/512/360/360943.png" alt="360" width="24">
+                    </div>
+                </div>
+
+                <!-- Right Side: Interior -->
+                <div class="spin-half">
+                    <img src="images/car-interior.png" alt="360 Interior" class="spin-bg-img">
+                    <div class="spin-label-container">
+                        <span class="spin-label dark">Interior</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Posts Section -->
+    <section class="social-section" id="social">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Social Posts</h2>
+                <p class="section-subtitle">Instant Social Creatives from Your Inventory. Designed to Drive Clicks and
+                    Leads.</p>
+            </div>
+            <div class="social-carousel">
+                <div class="social-phones">
+                    <div class="social-phone">
+                        <div class="phone-frame">
+                            <div class="phone-screen instagram">
+                                <img src="images/car-studio.png" alt="Instagram">
+                            </div>
+                        </div>
+                        <span class="platform-label"><span class="platform-icon">📸</span> Instagram</span>
+                    </div>
+                    <div class="social-phone">
+                        <div class="phone-frame">
+                            <div class="phone-screen meta">
+                                <img src="images/car-red.png" alt="Meta Ads">
+                            </div>
+                        </div>
+                        <span class="platform-label"><span class="platform-icon">Ⓜ️</span> Meta Ads</span>
+                    </div>
+                    <div class="social-phone">
+                        <div class="phone-frame">
+                            <div class="phone-screen youtube">
+                                <img src="images/car-gray.png" alt="YouTube">
+                            </div>
+                        </div>
+                        <span class="platform-label"><span class="platform-icon">▶️</span> Youtube</span>
+                    </div>
+                    <div class="social-phone">
+                        <div class="phone-frame">
+                            <div class="phone-screen facebook">
+                                <img src="images/hero-bg.png" alt="Facebook">
+                            </div>
+                        </div>
+                        <span class="platform-label"><span class="platform-icon">📘</span> Facebook</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Shorts Section -->
+    <section class="video-section" id="videos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Video Shorts</h2>
+                <p class="section-subtitle">Auto-Generated Car Videos That Boost Engagement. Built for Reels, TikTok,
+                    and More</p>
+            </div>
+            <div class="video-showcase">
+                <div class="video-phone">
+                    <div class="phone-frame large">
+                        <div class="phone-screen video">
+                            <img src="images/car-studio.png" alt="Video Short">
+                            <div class="video-overlay">
+                                <div class="video-title">Hello<span>Ramp</span>.ai</div>
+                                <div class="video-car-name">MERCEDES-BENZ</div>
+                                <div class="video-price">$20,000</div>
+                            </div>
+                            <button class="play-btn">▶</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section class="integrations-section" id="integrations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seamless Integrations</h2>
+                <p class="section-subtitle">Connect HelloRamp With Your DMS, CRM, Marketplaces, and Social Platforms to
+                    Automate Distribution</p>
+            </div>
+            <div class="integrations-grid">
+                <div class="integration-logo">
+                    <span class="integration-icon">●●●</span>
+                    <span>CDK</span>Global.
+                </div>
+                <div class="integration-logo">
+                    <span class="v-icon">V</span>
+                    <div>
+                        <strong>vAuto</strong>
+                        <small>by Cox Automotive</small>
+                    </div>
+                </div>
+                <div class="integration-logo">
+                    Autotrader <span class="at-icon">⚡</span>
+                </div>
+                <div class="integration-logo">
+                    <strong>DEALER</strong> INSPIRE
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HelloTrust Section -->
+    <section class="trust-section" id="trust" style="scroll-margin-top: 120px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="font-size: 56px; font-weight: 800; margin-bottom: 24px;">HelloTrust
+                </h2>
+                <p class="section-subtitle"
+                    style="max-width: 800px; color: #6B7280; font-size: 20px; margin-bottom: 60px;">We Take Care of Your
+                    Visuals, So You Can Take Care of Your Business</p>
+            </div>
+            <!-- Central Badge Container (Absolute Positioned in CSS) -->
+            <div class="trust-container">
+                <div class="center-badge">
+                    <span>H</span>
+                </div>
+
+                <!-- Top Left -->
+                <div class="trust-item border-right border-bottom">
+                    <div class="trust-header">
+                        <h3>24×7 Human Support</h3>
+                        <div class="trust-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                <path
+                                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <ul class="trust-list">
+                        <li><span class="star-bullet">✦</span> Always available: Real people, not bots.</li>
+                        <li><span class="star-bullet">✦</span> 1-hour guaranteed response time: Because time on the lot
+                            is money.</li>
+                        <li><span class="star-bullet">✦</span> Priority coordination: From setup to troubleshooting,
+                            we're just one call away.</li>
+                    </ul>
+                </div>
+
+                <!-- Top Right -->
+                <div class="trust-item border-bottom">
+                    <div class="trust-header">
+                        <h3>Expert-led Quality Control</h3>
+                        <div class="trust-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+                                </path>
+                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                                <path d="M9 14l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <ul class="trust-list">
+                        <li><span class="star-bullet">✦</span> Priority QC: Every asset passes through our premium
+                            checks.</li>
+                        <li><span class="star-bullet">✦</span> Ongoing account reviews: We keep your pipeline polished.
+                        </li>
+                        <li><span class="star-bullet">✦</span> Proactive prevention: We flag and fix issues before they
+                            cost you leads.</li>
+                    </ul>
+                </div>
+
+                <!-- Bottom Left -->
+                <div class="trust-item border-right">
+                    <div class="trust-header">
+                        <h3>Unlimited Training</h3>
+                        <div class="trust-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z">
+                                </path>
+                                <path d="M12 5.36l-1.4 1.4M12 5.36l1.4 1.4"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <ul class="trust-list">
+                        <li><span class="star-bullet">✦</span> Hands-on onboarding for your staff.</li>
+                        <li><span class="star-bullet">✦</span> Refresher sessions anytime: New hires, updated features,
+                            or just a confidence boost.</li>
+                        <li><span class="star-bullet">✦</span> No caps on sessions, no additional cost.</li>
+                    </ul>
+                </div>
+
+                <!-- Bottom Right -->
+                <div class="trust-item">
+                    <div class="trust-header">
+                        <h3>Reporting & Analytics</h3>
+                        <div class="trust-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                    <ul class="trust-list">
+                        <li><span class="star-bullet">✦</span> Capture workflow dashboards</li>
+                        <li><span class="star-bullet">✦</span> QC trackers: Spot bottlenecks, keep processes smooth.
+                        </li>
+                        <li><span class="star-bullet">✦</span> Performance analytics: Photographer, QC, and visual
+                            stats.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Try HelloRamp Section -->
+    <!-- Try HelloRamp Section -->
+    <section class="demo-section" id="try-yourself">
+        <div class="container">
+            <div class="section-header dark">
+                <h2 class="section-title">Try HelloRamp Yourself</h2>
+                <p class="section-subtitle">Book a Demo and Spin Up a Listing in Under 2 Minutes.</p>
+            </div>
+
+            <div class="demo-card-container">
+                <!-- Left Side: Interactive Steps -->
+                <div class="demo-controls">
+                    <!-- Step 1 -->
+                    <div class="demo-step">
+                        <div class="step-label">
+                            <span class="step-badge">STEP 1</span> Select vehicle
+                        </div>
+                        <div class="vehicle-options">
+                            <div class="vehicle-option selected">
+                                <img src="images/hero-bg.png" alt="White SUV">
+                                <div class="check-circle"></div>
+                            </div>
+                            <div class="vehicle-option">
+                                <img src="images/car-red.png" alt="Red SUV">
+                            </div>
+                            <div class="vehicle-option">
+                                <img src="images/car-gray.png" alt="Black SUV">
+                            </div>
+                            <button class="add-vehicle-btn">
+                                <span class="upload-icon">⬆</span>
+                                <span>Add Vehicle</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="demo-step">
+                        <div class="step-label">
+                            <span class="step-badge">STEP 2</span> Select product
+                        </div>
+                        <div class="product-options">
+                            <button class="product-btn selected">
+                                <span class="p-icon">🎬</span>
+                                Photobooth
+                            </button>
+                            <button class="product-btn">
+                                <span class="p-icon">🔄</span>
+                                360 Spin
+                            </button>
+                            <button class="product-btn">
+                                <span class="p-icon">🖼️</span>
+                                Posts
+                            </button>
+                            <button class="product-btn">
+                                <span class="p-icon">📺</span>
+                                Shorts
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="demo-step">
+                        <div class="step-label">
+                            <span class="step-badge">STEP 3</span> Select template
+                        </div>
+                        <div class="template-options">
+                            <div class="template-option">
+                                <img src="images/car-studio.png" alt="Studio 1">
+                            </div>
+                            <div class="template-option">
+                                <img src="images/hero-bg.png" alt="Studio 2">
+                            </div>
+                            <div class="template-option">
+                                <img src="images/car-gray.png" alt="Studio 3">
+                            </div>
+                            <button class="view-more-btn">
+                                <span>→</span>
+                                <span>View More</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <button class="create-wa-btn">Create with HelloRamp</button>
+                </div>
+
+                <!-- Right Side: Preview -->
+                <div class="demo-preview">
+                    <div class="preview-content">
+                        <div class="magic-wand-container">
+                            <span class="magic-wand">🪄</span>
+                        </div>
+                        <h3>Ready to see the magic?</h3>
+                        <p>Create with <a href="#">HelloRamp.ai</a> to view your result here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Customers Love Us <span class="heart">❤️</span></h2>
+                <p class="section-subtitle">Real Results. Impact That Speaks for Itself.</p>
+            </div>
+            <div class="testimonials-carousel">
+                <button class="carousel-btn prev" id="prevBtn">❮</button>
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"We can now take photos anywhere, and they always look great.
+                            HelloRamp made our process faster and our listings more appealing. Customers often tell us
+                            they found us online because the cars stood out in the photos."</p>
+                        <a href="#" class="case-study-link">View Case Study →</a>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">BA</div>
+                            <div class="author-info">
+                                <strong>Ben Amini</strong>
+                                <span>Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"HelloRamp made our listings instantly look more premium with their
+                            branded studio shots—and the 360° spins changed the online browsing game. The workflow's
+                            fast, even when Wi-Fi dips, and it's a breeze to use. Big upgrade for our site!"</p>
+                        <a href="#" class="case-study-link">View Case Study →</a>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">D</div>
+                            <div class="author-info">
+                                <strong>Dennis</strong>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"The HelloRamp team is just a WhatsApp away. It's like having them
+                            in our office. The photos look incredible, the process is fast, and support is always there
+                            when we need it."</p>
+                        <a href="#" class="case-study-link">View Case Study →</a>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">J</div>
+                            <div class="author-info">
+                                <strong>Jassie</strong>
+                                <span>Diamond 2 Auto Sales</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">"Whether in our showroom or on the lot, HelloRamp ensures every
+                            photo looks flawless and on-brand. It's faster, easier, and makes our cars stand out online
+                            the way they deserve."</p>
+                        <a href="#" class="case-study-link">View Case Study →</a>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SV</div>
+                            <div class="author-info">
+                                <strong>Sanjay Varma</strong>
+                                <span>Autodynamics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="nextBtn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand & Contact -->
+                <div class="footer-column brand-column">
+                    <a href="#" class="footer-logo">Hello<span>Ramp</span>.ai</a>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-contact-info">
+                        <p>Delaware, USA</p>
+                        <a href="mailto:contact@helloramp.ai" class="contact-email">contact@helloramp.ai</a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Capture & Showcase -->
+                <div class="footer-column">
+                    <h4>Capture & Showcase</h4>
+                    <ul>
+                        <li><a href="#">Photobooth</a></li>
+                        <li><a href="#">Spin 360</a></li>
+                        <li><a href="#">Damage Tagging</a></li>
+                        <li><a href="#">Engine Video</a></li>
+                        <li><a href="#">Interactive Gallery</a></li>
+                        <li><a href="#">Feature Highlights</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Market and Engage -->
+                <div class="footer-column">
+                    <h4>Market and Engage</h4>
+                    <ul>
+                        <li><a href="#">Social Posts</a></li>
+                        <li><a href="#">Video Shorts</a></li>
+                        <li><a href="#">Instagram Manager</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Resources -->
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
